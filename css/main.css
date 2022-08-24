@@ -1,0 +1,235 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+/*
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    */
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 26 px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+body{
+    width: 1440 px;
+    background-color: #181818;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 24;
+    font-family: CoFo Sans;
+    font-style: normal;
+    font-weight: 400;
+    }
+
+    .p {
+        margin: 0;
+    }
+
+    h1{
+        font-family: Furore;
+        font-weight: normal;
+        font-style: normal;
+        color: #E50000;
+        font-size: 56px;
+        line-height: 118%;
+        letter-spacing: 0.035em;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center; 
+        }
+    h2{
+        font-family: Furore;
+        font-weight: normal;
+        font-style: normal;
+        color: #E50000;
+        font-size: 48px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.035em;
+        text-transform: capitalize;
+        margin: 80 px;
+    }
+    h3{
+
+    }
+
+    h4 {
+        width: 286px;
+        height: 50px;
+        font-family: 'CoFo Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #E50000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+ 
+    .text {
+        font-family: 'CoFo Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 20px;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_1{
+    width: 370px;
+    height: 500px;
+    left: 0px;
+    top: 174px; 
+    background: #201F1F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
+    border-radius: 10 px; 
+}
+
+
+
+.offer-title {
+   margin-bottom: 40px;
+}
+
+.text_servises {
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 60 px;
+    padding-bottom: 60 px;
+}
+
+.btn {
+    text-align: center;
+    width: 275px;
+    height: 73px;
+    text-decoration: none !important;
+    color: #ffffff;
+    background: #E50000;
+    font-size: 26px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    
+   
+   
+}
+
+.btn:hover {
+    background: #B40000;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titel_card {
+    padding: 100 px;
+    width: 335px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #DFDFDF;
+    
+}
+.text_servises {
+    margin-bottom: 60 px;
+}
+
+.text_description {
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    width: 1170px;
+    height: 114px;
+    line-height: 38px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text_about {
+    width: 1041px;
+    height: 150px;
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DFDFDF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.qualification {
+    font-size: 32px;
+    color: #181818;
+    padding: 0px 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    justify-content: space-between 
+}
+
