@@ -114,14 +114,42 @@ body{
 }
 
 .header {
-    padding-top: 20px;
+    padding-top: 20px;  
+}
+
+.All_header_menu {
+    display: flex; 
+}
+
+
+.Logo, .Top_menu {
+    margin-right: 25 px;
+    display: inline-block;
+    vertical-align: middle;
     
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.Top_menu li {
+    margin-right: 25 px;
+    display: inline-block;
+    justify-content: right;
+    vertical-align: middle;
+}
+
+.Top_menu a{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.Logo h5{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 30 px;
+    vertical-align: middle;
 }
 
 .container_1{
@@ -160,7 +188,6 @@ body{
     font-size: 26px;
     padding: 20px 40px;
     border-radius: 10px;
-    
    
    
 }
