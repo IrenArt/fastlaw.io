@@ -5,11 +5,9 @@
 	border: 0;
 }
 *,*:before,*:after{
-/*
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-    */
+	box-sizing: border-box;  
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -48,7 +46,7 @@ body{
     margin: 0;
     color: #FFFFFF;
     font-size: 24;
-    font-family: CoFo Sans;
+    font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
     }
@@ -80,11 +78,12 @@ body{
         align-items: center;
         letter-spacing: 0.035em;
         text-transform: capitalize;
-        margin: 80 px;
+        margin-bottom: 80px;
+        margin-top: 200px;
     }
-    h3{
+    h3
 
-    }
+   
 
     h4 {
         width: 286px;
@@ -99,6 +98,22 @@ body{
         order: 0;
         flex-grow: 0;
     }
+
+    h5 {
+        font-family: 'CoFo Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+     }
+
+    h6
  
     .text {
         font-family: 'CoFo Sans';
@@ -125,24 +140,37 @@ body{
 .Logo, .Top_menu {
     margin-right: 25 px;
     display: inline-block;
+    vertical-align: middle;  
+}
+
+.Top_menu li {
+    display: inline-block;
+    justify-content: right;
+    vertical-align: middle;
+   
+}
+
+.Top_menu a{
+    font-family: 'CoFo Sans';
+    font-size: 24px;
+    color: #ffffff;
+    font-style: normal;
     vertical-align: middle;
     
 }
 
-.Top_menu li {
-    margin-right: 25 px;
-    display: inline-block;
-    justify-content: right;
-    vertical-align: middle;
+.Top_menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end; 
 }
 
-.Top_menu a{
-    font-family: Source Sans Pro;
-    font-size: 24px;
-    color: #FFFFFF;
-    font-style: normal;
-    vertical-align: middle;
+.Top_menu a:hover{
+    color: E50000;
 }
+
+
 
 .Logo h5{
     font-family: 'Source Sans Pro';
@@ -163,19 +191,35 @@ body{
 }
 
 
-
 .offer-title {
    margin-bottom: 40px;
+   margin-top: 100px;
 }
 
+.text {
+    margin-bottom: 60px;
+}
+
+
+.servises_menu {
+    margin-bottom: 60px;
+    line-height: 32px;
+}
 .text_servises {
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
+    margin-bottom: 60px;
     line-height: 32px;
-    padding-top: 60 px;
-    padding-bottom: 60 px;
+    
+    
+}
+
+
+.servises_menu{
+    justify-content: flex-end;
+   
 }
 
 .btn {
@@ -198,6 +242,11 @@ body{
 
 
 .header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_logos{
     display: flex;
     justify-content: space-between;
 }
@@ -231,6 +280,7 @@ body{
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+    margin-bottom: 60px;
 }
 
 .text_about {
