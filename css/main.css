@@ -83,8 +83,6 @@ body{
     }
     h3
 
-   
-
     h4 {
         width: 286px;
         height: 50px;
@@ -100,20 +98,19 @@ body{
     }
 
     h5 {
-        font-family: 'CoFo Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 45px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-     }
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
 
-    h6
  
     .text {
         font-family: 'CoFo Sans';
