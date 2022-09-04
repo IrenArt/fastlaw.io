@@ -52,49 +52,49 @@ body{
     }
 
     .p {
-        margin: 0;
+    margin: 0;
     }
 
     h1{
-        font-family: Furore;
-        font-weight: normal;
-        font-style: normal;
-        color: #E50000;
-        font-size: 56px;
-        line-height: 118%;
-        letter-spacing: 0.035em;
-        text-transform: capitalize;
-        display: flex;
-        align-items: center; 
-        }
-    h2{
-        font-family: Furore;
-        font-weight: normal;
-        font-style: normal;
-        color: #E50000;
-        font-size: 48px;
-        line-height: 140%;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.035em;
-        text-transform: capitalize;
-        margin-bottom: 80px;
-        margin-top: 200px;
+    font-family: Furore;
+    font-weight: normal;
+    font-style: normal;
+    color: #E50000;
+    font-size: 56px;
+    line-height: 118%;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center; 
     }
-    h3
+
+    h2{
+    font-family: Furore;
+    font-weight: normal;
+    font-style: normal;
+    color: #E50000;
+    font-size: 48px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+    margin-top: 200px;
+    }
 
     h4 {
-        width: 286px;
-        height: 50px;
-        font-family: 'CoFo Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 50px;
-        color: #E50000;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+    width: 286px;
+    height: 50px;
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #E50000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
     }
 
     h5 {
@@ -113,113 +113,172 @@ body{
 
  
     .text {
-        font-family: 'CoFo Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 32px;
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
     }
 
-.container {
+    .container {
     width: 1170px;
     margin: 0 auto;
-}
+    }
 
-.header {
+    .header {
     padding-top: 20px;  
-}
+    }
 
-.All_header_menu {
-    display: flex; 
-}
+    .header_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 1172px;
+    height: 65px;
+    }
 
+    .header_logo {
+    margin-right: 10px;
+    position: absolute;
+    width: 70px;
+    height: 60.38px;
+    }
 
-.Logo, .Top_menu {
-    margin-right: 25 px;
+    .logo_text {
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 80px;
+    }
+    .Logo, .Top_menu {
     display: inline-block;
     vertical-align: middle;  
-}
+    }
 
-.Top_menu li {
+    .Top_menu li {
     display: inline-block;
     justify-content: right;
     vertical-align: middle;
    
-}
+    }
 
-.Top_menu a{
+    .Top_menu a{
     font-family: 'CoFo Sans';
     font-size: 24px;
     color: #ffffff;
     font-style: normal;
     vertical-align: middle;
-    
-}
+    text-align: justify
+    }
 
-.Top_menu {
+    .Top_menu {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: flex-end; 
-}
+    justify-content: flex-end;
+    text-align: justify
+    }
 
-.Top_menu a:hover{
+    .menu_list li {
+    margin-left: 60px;
+    text-align: justify
+    margin
+    }
+
+    .Top_menu a:hover{
     color: E50000;
-}
+    }
 
 
-
-.Logo h5{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    color: #FFFFFF;
-    font-size: 30 px;
-    vertical-align: middle;
-}
-
-.container_1{
+    .container_1{
     width: 370px;
     height: 500px;
     left: 0px;
     top: 174px; 
     background: #201F1F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
-    border-radius: 10 px; 
-}
+    border-radius: 10 px;
+    padding: 20px;
+    }
+    .container_2{
+    width: 370px;
+    height: 500px;
+    left: 0px;
+    top: 174px; 
+    background: #201F1F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
+    border-radius: 10 px;
+    padding: 20px;
+    }
+
+    .container_3{
+    width: 370px;
+    height: 500px;
+    left: 0px;
+    top: 174px; 
+    background: #201F1F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
+    border-radius: 10 px;
+    padding: 20px;
+    }
+ 
+    .all cards{
+    width: 1170px;
+    height: 500px; 
+     flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
 
 
-.offer-title {
-   margin-bottom: 40px;
-   margin-top: 100px;
-}
+    .box-content_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    position: absolute;
+    width: 335px;
+    height: 422px;
+    left: 20px;
+    top: 20px;
+    }
 
-.text {
-    margin-bottom: 60px;
-}
+
+    .offer-title{
+    margin-bottom: 40px;
+    margin-top: 100px;
+    }
 
 
-.servises_menu {
-    margin-bottom: 60px;
+    .servises_menu{
+    justify-content: flex-end;
+    line-height: 123%;
+    }
+
+    .text_servises li{
     line-height: 32px;
-}
-.text_servises {
+    list-style-type: disc;
+    margin-bottom: 32px;
+    }
+
+    .text_servises {
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
-    margin-bottom: 60px;
-    line-height: 32px;
-    
-    
-}
+    list-style-type: disc;
+    line-height: 123%;
+    margin: 32px;
+    padding: 60px 0px;
+    }
 
 
-.servises_menu{
-    justify-content: flex-end;
-   
-}
-
-.btn {
+    .btn {
     text-align: center;
     width: 275px;
     height: 73px;
@@ -229,26 +288,56 @@ body{
     font-size: 26px;
     padding: 20px 40px;
     border-radius: 10px;
-   
-   
-}
+    }
 
-.btn:hover {
+    .btn:hover {
     background: #B40000;
-}
+    }
 
 
-.header-content {
+    .header-content {
     display: flex;
     justify-content: space-between;
-}
+    }
 
-.block_logos{
+    .block_logos{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-}
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    width: 1170px;
+    height: 150px;
+    }
+    
 
-.titel_card {
+    .block_1 {
+    width: 1170px;
+    margin: 0 auto;
+    
+    }
+
+    .block_2 {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 200px;
+    }
+  
+    .product_card_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;  
+    position: absolute;
+    width: 335px;
+    height: 422px;
+    left: 20px;
+    top: 20px; 
+    }
+
+    .titel_card {
     padding: 100 px;
     width: 335px;
     height: 19px;
@@ -258,13 +347,11 @@ body{
     line-height: 19px;
     text-transform: uppercase;
     color: #DFDFDF;
-    
-}
-.text_servises {
-    margin-bottom: 60 px;
-}
+    }
 
-.text_description {
+
+
+    .text_description {
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
@@ -278,9 +365,9 @@ body{
     align-self: stretch;
     flex-grow: 0;
     margin-bottom: 60px;
-}
+    }
 
-.text_about {
+    .text_about {
     width: 1041px;
     height: 150px;
     font-family: 'CoFo Sans';
@@ -291,19 +378,20 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
-    color: #DFDFDF;
-    /* Inside auto layout */
+    color: #DFDFDF;  
     flex: none;
     order: 0;
     flex-grow: 0;
-}
+    }
 
-.qualification {
+    .qualification {
     font-size: 32px;
     color: #181818;
     padding: 0px 10px;
     background: #FFFFFF;
     border-radius: 10px;
     justify-content: space-between 
-}
+    }
+
+    .all_cards
 
