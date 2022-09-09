@@ -578,6 +578,17 @@ display: inline-block;
     color: #DFDFDF;  
     flex: none;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 1170px;
+    height: 150px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .qualification {
@@ -677,7 +688,8 @@ li :last-child {
     flex: none;
     order: 1;
     align-self: stretch;
-    flex-grow: 0;   
+    flex-grow: 0;
+    align-items: start;  
 }
 
 
@@ -1030,7 +1042,16 @@ margin-bottom: 40px;
     flex-grow: 0;
     justify-content: 60px;
     margin-bottom: 140px;
+    display: inline-block;
+    vertical-align: bottom;
+    display: inline-block;
+    position: absolute;
 }
+
+.image_process_right{
+    margin-top: 350px;
+}
+
 
 
 
