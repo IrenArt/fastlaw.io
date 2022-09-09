@@ -37,29 +37,6 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-@font-face {
-    font-family:'Furore';
-    src: local('Furore');
-    src: url(../fonts/Furore.otf);
-}
-
-@font-face {
-    font-family: 'CoFo Sans';
-    src: local('CoFo Sans');
-    src: url(../fonts/CoFoSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'CoFo Sans';
-    src: local('CoFo Sans');
-    src: url(../fonts/CoFoSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'CoFo Sans';
-    src: local('CoFo Sans');
-    src: url(../fonts/CoFoSans-Medium.ttf);
-}
 
 body{
     width: 1440 px;
