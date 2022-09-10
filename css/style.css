@@ -37,6 +37,13 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+@font-face {
+    font-family:'Furore';
+    src: local('Furore');
+    src: url(../fonts/Furore.otf);
+}
+    
+
 
 body{
     width: 1440 px;
@@ -333,7 +340,7 @@ height: 422px;
     flex-grow: 0;
     list-style-type: disc;
     line-height: 123%;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 25px;
     width: 330px;
     height: 160px;
     justify-content: space-between;
