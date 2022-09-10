@@ -740,9 +740,6 @@ li :last-child {
 }
 
 
-
-
-
 .all_cards_we_work {
     display: flex;
     justify-content: space-between;
@@ -759,12 +756,14 @@ li :last-child {
 }
 
 .card_we_work_content img {
-    text-align: center;
+    margin-bottom: 40px;
+
 }
 
+.icon-work {
+    padding-left: 20px;
 
-.card_we_work_content img {
-margin-bottom: 40px;
+
 }
 
 .titel_we_work {
@@ -800,7 +799,6 @@ margin-bottom: 40px;
 }
 
 .titel_we_work {
-    width: 230px;
     height: 60px;
     font-family: 'CoFo Sans';
     font-style: normal;
@@ -830,7 +828,8 @@ margin-bottom: 40px;
     color: #DFDFDF;
     flex: none;
     order: 1;
-    flex-grow: 0;    
+    flex-grow: 0;
+    text-align: left;    
 }
 
 
