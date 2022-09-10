@@ -333,7 +333,10 @@ align-self: stretch;
 flex-grow: 0;
 list-style-type: disc;
 line-height: 123%;
-margin: 0px 0px 0px 20px;
+margin: 0px 0px 0px 15px;
+width: 330px;
+height: 160px;
+justify-content: space-between;
 }
 
 .we_make li {
@@ -351,8 +354,7 @@ align-self: stretch;
 flex-grow: 0;
 list-style-type: disc;
 line-height: 123%;
-
-
+margin-bottom: 25px;
 }
 
 .container_2{
@@ -443,6 +445,10 @@ display: inline-block;
     border-radius: 10px;
     position: absolute;
     bottom: 0;
+}
+
+.btn_main:hover{
+    background: #B40000;
 }
 
 .btn:hover {
@@ -1049,8 +1055,19 @@ margin-bottom: 40px;
 }
 
 .image_process_right{
-    margin-top: 350px;
+    /*margin-top: 350px;/*/
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+   
 }
+
+
+
+position: absolute;
+bottom: 0;
 
 
 
