@@ -42,7 +42,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     src: local('Furore');
     src: url(../fonts/Furore.otf);
 }
-    
+
+
 
 
 body{
@@ -1057,9 +1058,26 @@ li :last-child {
     margin: 0;
     padding: 0;
     vertical-align: bottom;
-   
 }
 
+.image_process_right {
+    display: flex;
+    vertical-align:bottom;
+    display:inline-block;
+    margin-left: 60px;
+    
+    
+}
+
+.image_process_right img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+   align-items: flex-end;
+}
 
 .footer {
     width: 1170px;
