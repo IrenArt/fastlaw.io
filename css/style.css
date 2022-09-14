@@ -793,7 +793,7 @@ li :last-child {
     align-items: flex-start;
     padding: 40px 20px;
     gap: 60px;
-    width: 1172px;
+    width: 1170px;
     height: 170px;
     background: #1E1E1E;
     opacity: 0.8;
@@ -856,7 +856,7 @@ li :last-child {
 
 
 .image_process {
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .image_process_right {
@@ -909,6 +909,7 @@ li :last-child {
 
 .content_image_right {
     display: flex;
+    align-items: center;
 }
 
 .image_process_left img{
@@ -918,6 +919,7 @@ li :last-child {
     order: 1;
     flex-grow: 0;
     justify-content: 60px;
+    
 }
 
 .resolution {
@@ -925,12 +927,12 @@ li :last-child {
     flex-direction: row;
 }
 
-.resulution_text {
+.resolution_text {
     display: flex;
     flex-direction: column;
 }
 
-.resulution_text img{
+.resolution_text img{
     align-self: flex-start;
 
 }
