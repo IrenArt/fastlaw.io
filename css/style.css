@@ -88,7 +88,7 @@ h2{
     letter-spacing: 0.035em;
     text-transform: capitalize;
     margin-bottom: 80px;
-    margin-top: 200px;
+    margin-top: 190px;
 }
 
 h3 {
@@ -139,14 +139,25 @@ h5 {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
-    line-height: 32px;
-    margin-bottom: 60px;
+    line-height: 40px;
 }
+
+.text_01{
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 140px;
+}
+
 
 .container {
     width: 1170px;
     margin: 0 auto;
     padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header_container {
@@ -225,11 +236,14 @@ h5 {
     margin-bottom: 40px;
 }
 
+.offer_big_logo {
+    display: flex;
+    flex-direction:row;
+}
 
 .offer {
     display: flex;
-    flex-direction: column;
-
+    flex-direction:row;
 }
 
 
@@ -241,89 +255,84 @@ h5 {
     color: E50000;
 }
 
-.big_logo {
+.servises_menu {
     display: flex;
-    margin-left: 600px;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    width: 500px;
+    flex-direction: column;
+}
+
+.offer img {
+    display: flex;
     height: 439.26px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-left: 200px;
+    margin-top: -30px;
 }
 
 .button_main {
     display: flex;
-    margin-bottom: 60px;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: baseline;
 }
 
-.block_logos {
+
+
+.company_logos {
+    margin-top: 0px;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 0px;
-    gap: 80px;
     width: 1170px;
     height: 150px;
     flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0; 
-}
-
-.company_logos {
-justify-content: space-between;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-width: 1170px;
-height: 150px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0; 
+    flex-grow: 0;
+    order: 1;
+    margin-top: 650px;
 }
 
 .all_cards{
-display: flex;
-width: 1170px;
-height: 500px; 
-flex: none;
-order: 1;
-flex-grow: 0;
-justify-content: space-between;
-margin-bottom: 60px;
+    display: flex;
+    width: 1170px;
+    height: 500px; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .name_servises {
-margin-bottom: 20px;
-text-align: left;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .container_1{
-display: flex;
-width: 370px;
-height: 500px;
-left: 0px;
-top: 174px; 
-background: #201F1F;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
-border-radius: 10 px;
-padding: 20px 20px 58px 20px;
-display: inline-block;
+    display: flex;
+    width: 370px;
+    height: 500px;
+    left: 0px;
+    top: 174px; 
+    background: #201F1F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
+    border-radius: 10 px;
+    padding: 20px 20px 58px 20px;
+    display: inline-block;
 }
 
 .product_card_1 {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-position: absolute;
-width: 335px;
-height: 422px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 335px;
+    height: 422px;
 }
 
 .we_make_list {
@@ -396,7 +405,7 @@ height: 422px;
     display: inline-block;
     }
 
-    .product_card_3 {
+.product_card_3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,14 +413,7 @@ height: 422px;
     position: absolute;
     width: 335px;
     height: 422px;
-    }
-
-
-    .text_servises li{
-    line-height: 32px;
-    list-style-type: disc;
-    margin-bottom: 32px;
-    }
+}
 
 .text_servises {
     font-family: 'CoFo Sans';
@@ -419,12 +421,20 @@ height: 422px;
     font-weight: 400;
     font-size: 26px;
     list-style-type: disc;
-    line-height: 123%;
-    margin: 0px 0px 60px 32px;
+    margin: 60px 0px 60px 40px;
 }
+
+.text_servises li{
+    line-height: 32px;
+    list-style-type: disc;
+    margin-bottom: 32px;
+}
+
+
 
 .btn_main {
     text-align: center;
+    justify-content: center;
     width: 275px;
     height: 73px;
     text-decoration: none !important;
@@ -432,8 +442,10 @@ height: 422px;
     background: #E50000;
     font-size: 26px;
     padding: 20px 40px;
-    border-radius: 10px; 
-    margin-bottom: 60px; 
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: baseline; 
 }
 
 .btn {
@@ -448,6 +460,7 @@ height: 422px;
     border-radius: 10px;
     position: absolute;
     bottom: 0;
+    align-items: baseline
 }
 
 .btn_main:hover{
@@ -458,10 +471,6 @@ height: 422px;
     background: #B40000;
 }
 
-
-.header-content {
-    display: flex;
-}
 
 .block_logos{
     display: flex;
@@ -484,9 +493,6 @@ height: 422px;
     width: 1170px;
     margin: 0 auto;
 }
-  
-   
-
 
 
 .titel_card {
@@ -517,9 +523,7 @@ height: 422px;
     flex-grow: 0;
 }
 
-
-
-.text_description_01{
+.text_description{
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
@@ -532,26 +536,7 @@ height: 422px;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin-bottom: 60px;
 }
-
-.text_description_02{
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    width: 1170px;
-    height: 114px;
-    line-height: 38px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin-bottom: 60px;
-}
-
-
 
 .text_description_2{
     font-family: 'CoFo Sans';
@@ -677,25 +662,6 @@ li :last-child {
     flex-grow: 0;
     margin-bottom: 40px;
 }
-
-.description_advantages {
-    width: 530px;
-    height: 180px;
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 45px;   
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-    align-items: start;  
-}
-
 
 
 .qualification li {
@@ -874,6 +840,7 @@ li :last-child {
     font-size: 32px;
     line-height: 45px;
     margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .example_company {
@@ -890,7 +857,8 @@ li :last-child {
     border-radius: 10px;
     flex: none;
     order: 0;
-    flex-grow: 0;   
+    flex-grow: 0;
+    margin-bottom: 80px;
 }
 
 .example_content {
@@ -942,47 +910,12 @@ li :last-child {
     flex-grow: 0;   
 }
 
-.example_company {
-    margin-bottom: 80px;
-}
 
 .image_process {
     margin-right: 60px;
 }
 
 
-.description_text_1 {
-    width: 770px;
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    color: #DFDFDF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-bottom: 60px;
-}
-
-
-.description_text_2{
-    width: 743px;
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    color: #DFDFDF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-bottom: 140px;
-}
 
 .content_image_left{
     display: flex;
@@ -1019,25 +952,10 @@ li :last-child {
     margin-bottom: 60px;
 }
      
-.description_text_2_right{
-    width: 770px;
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    color: #DFDFDF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-bottom: 140px;
-}
+
 
 .content_image_right {
     display: flex;
-    justify-content: flex-end;
 }
 
 .image_process_left img{
@@ -1049,17 +967,23 @@ li :last-child {
     justify-content: 60px;
 }
 
-.image_process_right{
+.resolution {
     display: flex;
-    align-self: flex-end;
+    flex-direction: row;
 }
 
-
-.image_process_right img {
+.resulution_text {
     display: flex;
-    align-self: flex-end;
+    flex-direction: column;
 }
+
+.resulution_text img{
+    align-self: flex-start;
+
+}
+
 
 .footer {
     width: 1170px;
+    align-self: flex-end
 }
