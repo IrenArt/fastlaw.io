@@ -32,7 +32,7 @@ button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-img{vertical-align: top;}
+/*img{vertical-align: top;}*/
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 body{
-    width: 1440 px;
+    width: 1440px;
     background-color: #181818;
     padding: 0;
     margin: 0;
@@ -57,10 +57,17 @@ body{
     font-style: normal;
     font-weight: 400;
     flex-direction: column;
+
+
 }
 
 .p {
-    margin: 0;
+    margin: 0px;
+}
+
+.a {
+    margin: 0px;
+    justify-content: center;
 }
 
 h1{
@@ -120,7 +127,7 @@ h4 {
     flex: none;
     order: 0;
     flex-grow: 0;
-    justify-content: flex-start;
+
 }
 
 h5 {
@@ -161,6 +168,7 @@ h5 {
     padding: 20px 0px 0px 0px;
     display: flex;
     flex-direction: column;
+
 }
 
 .header_container {
@@ -169,18 +177,8 @@ h5 {
     margin-bottom: 100px;
 }
 
-.content-wraper {
-    display: flex;
-    flex-direction: column;
-    width: 1172px;
-    height: 65px;
-}
 
-.content_wraper {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    }
+
 
 .header_logo {
     margin-right: 10px;
@@ -277,14 +275,14 @@ h5 {
 }
 
 .button_main {
-    display: flex;
-    align-items: baseline;
+    
+
 }
 
 
 
 .company_logos {
-    margin-top: 0px;
+    margin-top: 60px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -295,8 +293,10 @@ h5 {
     flex: none;
     flex-grow: 0;
     order: 1;
-    margin-top: 650px;
 }
+
+
+
 
 .all_cards{
     display: flex;
@@ -375,6 +375,8 @@ h5 {
 .product_card_1 .btn {
     justify-content: center;
     margin-left: 25px;
+    vertical-align: center;
+    text-align: center;
 }
 
 .text_servises {
@@ -407,7 +409,9 @@ h5 {
     border-radius: 10px;
     display: inline-block;
     vertical-align: middle;
-    align-items: baseline; 
+    align-items: baseline;
+    vertical-align: center;
+    text-align: center;
 }
 
 .btn {
@@ -422,7 +426,10 @@ h5 {
     border-radius: 10px;
     position: absolute;
     bottom: 0;
-    align-items: baseline
+    align-items: baseline;
+    vertical-align: center;
+    text-align: center;
+
 }
 
 .btn_main:hover{
@@ -909,7 +916,7 @@ li :last-child {
 
 .content_image_right {
     display: flex;
-    align-items: center;
+    vertical-align: bottom;
 }
 
 .image_process_left img{
@@ -919,6 +926,7 @@ li :last-child {
     order: 1;
     flex-grow: 0;
     justify-content: 60px;
+    vertical-align: bottom;
     
 }
 
@@ -930,15 +938,32 @@ li :last-child {
 .resolution_text {
     display: flex;
     flex-direction: column;
-}
-
-.resolution_text img{
-    align-self: flex-start;
-
+    vertical-align: top;
 }
 
 
-.footer {
-    width: 1170px;
-    align-self: flex-end
-}
+
+
+
+@media (max-width: 1920px )
+    .container
+        width: 1440px
+
+
+@media (max-width: 1000px)
+    .container
+        width: 960px
+        
+@media (max-width: 768px)
+    .container
+        width: 730px
+
+@media (max-width: 480px)
+    .container
+        width: 440px
+
+@media (max-width: 360px)
+    .container
+        width: 320px
+    
+   
