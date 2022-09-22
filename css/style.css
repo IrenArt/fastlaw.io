@@ -95,32 +95,14 @@ h2{
     letter-spacing: 0.035em;
     text-transform: capitalize;
     margin-bottom: 80px;
-    margin-top: 190px;
+    margin-top: 200px;
 }
 
-h3 {
-    left: 0px;
-    top: 21px;
-    font-family: 'Furore';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 118%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.035em;
-    text-transform: capitalize;
-    color: #DFDFDF;
-    margin-top: 80px;
-    margin-bottom: 60px;
-}
 
 h4 {
-    width: 286px;
-    height: 50px;
     font-family: 'CoFo Sans';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 40px;
     line-height: 50px;
     color: #E50000;
@@ -148,33 +130,28 @@ h5 {
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 40px;
 }
 
-.text_01{
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 40px;
+.margin_140{
     margin-bottom: 140px;
 }
-
 
 .container {
     width: 1170px;
     margin: 0 auto;
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     display: flex;
     flex-direction: column;
 
 }
 
 .header_container {
-    align-items: baseline;
+
     display: flex;
     margin-bottom: 100px;
+    align-items: center;
 }
 
 
@@ -198,14 +175,22 @@ h5 {
 
 .Logo, .Top_menu {
     display: inline-block;
-    vertical-align: middle;  
+    vertical-align: baseline;
 }
 
 .Top_menu li {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 60px;
+    margin-right: 30px;
  }
+
+
+.Top_menu li:hover{
+    background: #E50000;
+    border-radius: 10px;
+
+}
+
 
  .menu_list li:last-child {
     margin: 0px;
@@ -213,11 +198,22 @@ h5 {
 
 .Top_menu a{
     font-family: 'CoFo Sans';
-    font-size: 24px;
-    color: #ffffff;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
     font-style: normal;
     vertical-align: middle;
-    text-align: justify
+    text-align: justify;
+    
+
+
+    border: solid red;
+    border-radius: 10px;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
 }
 
 .Top_menu {
@@ -237,10 +233,6 @@ h5 {
     margin-bottom: 40px;
 }
 
-.offer_big_logo {
-    display: flex;
-    flex-direction:row;
-}
 
 .offer {
     display: flex;
@@ -249,7 +241,7 @@ h5 {
 
 
 .menu_list li {
-    text-align: justify
+    text-align: justify;
 }
 
 .Top_menu a:hover{
@@ -275,8 +267,7 @@ h5 {
 }
 
 .button_main {
-    
-
+    background-position: center;
 }
 
 
@@ -298,10 +289,8 @@ h5 {
 
 
 
-.all_cards{
+.all_product_cards{
     display: flex;
-    width: 1170px;
-    height: 500px; 
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -312,31 +301,33 @@ h5 {
 
 .name_servises {
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     justify-content: flex-start;
 }
 
-.container_1{
+.card_container{
     display: flex;
     width: 370px;
-    height: 500px;
+    height: 550px;
     left: 0px;
     top: 174px; 
     background: #201F1F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
     border-radius: 10 px;
-    padding: 20px 20px 58px 20px;
+    padding: 25px 20px 58px 20px;
     display: inline-block;
+
+  
 }
 
-.product_card_1 {
+.product_card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     position: absolute;
     width: 335px;
-    height: 422px;
+    height: 470px;
 }
 
 .we_make_list {
@@ -368,15 +359,13 @@ h5 {
     line-height: 123%;
     margin-bottom: 15px;
     line-height: 32px;
-    list-style-type: disc;
-    
 }
 
-.product_card_1 .btn {
+.product_card .btn {
     justify-content: center;
-    margin-left: 25px;
     vertical-align: center;
-    text-align: center;
+
+
 }
 
 .text_servises {
@@ -412,6 +401,7 @@ h5 {
     align-items: baseline;
     vertical-align: center;
     text-align: center;
+    background-position: center;
 }
 
 .btn {
@@ -427,9 +417,6 @@ h5 {
     position: absolute;
     bottom: 0;
     align-items: baseline;
-    vertical-align: center;
-    text-align: center;
-
 }
 
 .btn_main:hover{
@@ -464,10 +451,10 @@ h5 {
 }
 
 
-.titel_card {
+.product_card_titel {
     font-family: 'CoFo Sans';
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 19px;
     padding: 100 px;
     width: 335px;
@@ -476,6 +463,12 @@ h5 {
     text-transform: uppercase;
     color: #DFDFDF;
     margin-bottom: 40px;
+    line-height: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 330px;
+    height: 50px;
 }
 
 .li {
@@ -492,20 +485,6 @@ h5 {
     flex-grow: 0;
 }
 
-.text_description{
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    width: 1170px;
-    line-height: 38px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
 
 .text_about {
     width: 1041px;
@@ -513,7 +492,7 @@ h5 {
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
     display: flex;
     align-items: center;
@@ -587,7 +566,7 @@ li :last-child {
     align-items: center;
 }
 
-.card_advantages_1 {
+.card_advantages {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -603,11 +582,11 @@ li :last-child {
     flex-grow: 0;
 }
 
-.titel_advantages {
+.title_advantages {
     font-family: 'CoFo Sans';
     font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
+    font-weight: 400;
+    font-size: 32px;
     line-height: 43px;
     color: #E50000;
     flex: none;
@@ -660,97 +639,71 @@ li :last-child {
 
 .all_cards_we_work {
     display: flex;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 30px;
-    width: 1170px;
-    height: 518px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
+    flex-direction: column;
+    margin-bottom: 500px;
 
-.card_we_work_content img {
-    margin-bottom: 40px;
-
-}
-
-.icon-work {
-    padding-left: 20px;
-
-
-}
-
-.titel_we_work {
-    margin-bottom: 40px;
-}
-
-.we_work_like_this {
-    position: absolute;
-    width: 440px;
-    height: 47px;
-    left: 0px;
-    font-family: 'Furore';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    color: #DFDFDF;
+    height: 1000px;
 }
 
 .Card_we_work {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
+   
+}
+
+.red {
+    color: #E50000;
+}
+
+.card_we_work_content {
+    display: flex;
+    padding: 30px 40px;
     gap: 40px;
-    width: 270px;
-    height: 518px;
+    width: 826px;
+    height: 270px;
+    left: 135px;
+    top: 4041px;
     background: #201F1F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 4px 4px rgba(68, 65, 65, 0.25);
     border-radius: 10px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    margin-bottom: 150px;
+
+
 }
 
-.titel_we_work {
-    height: 60px;
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;    
+.card_we_work_content:last-child {
+    margin: right 0px;
 }
 
-.contetnt_we_work{
-    width: 230px;
-    height: 125px;
+.maleft {
+    margin-left: 373px;
+}
+
+
+.title_we_work {
     font-family: 'CoFo Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 32px;
     display: flex;
-    align-items: start;  
-    color: #DFDFDF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    text-align: left;    
+    align-items: center;
+    margin-bottom: 30px;   
 }
 
+.content_we_work{
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    color: #DFDFDF; 
+}
 
+.card_we_work_text {
+    display: flex;
+    flex-direction: column;
+
+}
 
 
 .button_task {
@@ -917,6 +870,7 @@ li :last-child {
 .content_image_right {
     display: flex;
     vertical-align: bottom;
+
 }
 
 .image_process_left img{
