@@ -652,6 +652,7 @@ li :last-child {
 
 .red {
     color: #E50000;
+    font-weight: 500;
 }
 
 .card_we_work_content {
