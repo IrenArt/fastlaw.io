@@ -640,19 +640,16 @@ li :last-child {
 .all_cards_we_work {
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
-
-    height: 1000px;
 }
 
 .Card_we_work {
     display: flex;
-   
 }
 
 .red {
     color: #E50000;
     font-weight: 500;
+    white-space: pre-wrap;
 }
 
 .card_we_work_content {
