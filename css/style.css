@@ -674,10 +674,21 @@ li :last-child {
     margin: right 0px;
 }
 
-.maleft {
-    margin-left: 373px;
+
+.arrow_right {
+    margin-top: 170px;
+    margin-left: 20px;
 }
 
+.arrow_left {
+    margin-top: 170px;
+    margin-right: 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .title_we_work {
     font-family: 'CoFo Sans';
