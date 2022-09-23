@@ -131,7 +131,8 @@ h5 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 35px;
+    color: #DFDFDF;
 }
 
 .margin_140{
@@ -698,15 +699,6 @@ li :last-child {
     margin-bottom: 30px;   
 }
 
-.content_we_work{
-    font-family: 'CoFo Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    display: flex;
-    color: #DFDFDF; 
-}
 
 .card_we_work_text {
     display: flex;
@@ -825,15 +817,13 @@ li :last-child {
 
 
 .image_process {
-    margin-right: 50px;
+    margin-right: 40px;
 }
+
 
 .image_process_right {
     margin-left: 40px;
-    align-items: flex-end;
-}
-
-.image_process_right img {
+    justify-content: flex-end;
     align-items: flex-end;
 }
 
