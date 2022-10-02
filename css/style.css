@@ -180,7 +180,7 @@ h5 {
 .top_menu li {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 30px;
+    margin-right: 20px;
  }
 
 
@@ -202,8 +202,6 @@ h5 {
     font-style: normal;
     vertical-align: middle;
     text-align: justify;
-    border: solid red;
-    border-radius: 10px;
     order: 0;
     flex-grow: 0;
     display: flex;
@@ -250,15 +248,15 @@ h5 {
 
 .offer img {
     display: flex;
-    height: 439.26px;
+    height: 350px;
     flex: none;
     order: 0;
     flex-grow: 0;
     z-index: 0;
     justify-content: flex-start;
     align-self: flex-start;
-    margin-left: 200px;
-    margin-top: -30px;
+    margin-left: 300px;
+    margin-top: 0px;
 }
 
 .button_main {
@@ -368,7 +366,7 @@ h5 {
     font-weight: 400;
     font-size: 26px;
     list-style-type: disc;
-    margin: 60px 0px 60px 40px;
+    margin: 40px 0px 40px 40px;
 }
 
 .text_servises li{
@@ -434,15 +432,7 @@ h5 {
 }
    
     
-.block_1 {
-    width: 1170px;
-    margin: 0 auto;
-}
 
-.block_2 {
-    width: 1170px;
-    margin: 0 auto;
-}
 
 
 .product_card_titel {
@@ -935,6 +925,29 @@ li :last-child {
         height: 150px;
     }
 
+    .company_logos img:nth-child(1) {
+        height: 30px;
+    }
+
+    .company_logos img:nth-child(2) {
+        height: 30px;
+    }
+
+    .company_logos img:nth-child(3) {
+        width: 98.14px;
+        height: 110px;
+    }
+
+    .company_logos img:nth-child(4) {
+        height: 150px;
+    }
+    
+    .company_logos img:nth-child(5) {
+        height: 30px;
+    }
+
+
+    
     .company_logos {
         margin-top: 20px;
         justify-content: space-between;
@@ -1207,6 +1220,70 @@ li :last-child {
         width: 720px
     }
 
+    .top_menu{
+        
+        position: fixed;
+        top: 0px;
+        right: -100%;
+        height: 100vh;
+        background: #B40000;
+        z-index: 20px;
+        width: 50%;
+        transition: 1s;
+    }
+
+    .menu_list li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+
+    .hamburger {
+        width: 30px;
+        position: fixed;
+        top: 40px;
+        right: 30px;
+        height: 24px;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: #FFFFFF;
+        margin-bottom: 8px;
+        transition: 1s all;
+    }
+
+    .hamburger span :last-child {
+        margin-bottom: 0px;
+    }
+
+    .hamburger_active span:nth-child(1){
+        transform: rotate(-45deg);
+        margin-bottom: -2px;
+        transform: translateY(3px);
+    }
+
+    .hamburger_active span:nth-child(2){
+        display: none;
+        margin-bottom: -2px;
+    }
+
+    .hamburger_active span:nth-child(3){
+        transform: rotate(45deg);
+        margin-bottom: -2px;
+        transform: translateY(3px);
+    }
+
+    .top_menu_active {
+        display: block;
+    }
+
     .logo_text {
         font-size: 25px;
     }
@@ -1215,16 +1292,14 @@ li :last-child {
         margin-bottom: 50px;
     }
 
-    .top_menu{
-        display: none;
-     }
+   
 
      .offer-title {
         font-size: 34px;
      }
 
     .main_title {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .subtitel text {
@@ -1237,30 +1312,30 @@ li :last-child {
 
     .offer img {
         display: flex;
-        width: 350px;
+        width: 320px;
         z-index: 0;
-        margin-left:-50px;
+        margin-left:-60px;
         margin-top: -50px;
     }
 
-    .company_logos img :nth-child(1) {
+    .company_logos img:nth-child(1) {
         height: 30px;
     }
 
-    .company_logos img :nth-child(2) {
+    .company_logos img:nth-child(2) {
         height: 30px;
     }
 
-    .company_logos img :nth-child(3) {
+    .company_logos img:nth-child(3) {
         width: 98.14px;
         height: 110px;
     }
 
-    .company_logos img :nth-child(4) {
+    .company_logos img:nth-child(4) {
         height: 150px;
     }
     
-    .company_logos img :nth-child(5) {
+    .company_logos img:nth-child(5) {
         height: 30px;
     }
 
@@ -1278,9 +1353,6 @@ li :last-child {
         flex-grow: 0;
         font-size: 24px;
     }
-
-
-
 
     .text_servises {
         font-size: 20px;
